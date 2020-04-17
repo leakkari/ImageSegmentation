@@ -67,8 +67,8 @@ if __name__ == '__main__':
     fig = plt.figure()
     plt.title("Pixel count in each group")
     ax = fig.add_axes([0, 0, 1, 1])
-    groups = ['Group 1', 'Group 2', 'Group 3']
-    group_counts = [227865, 229369,464366]
+    groups = ['Group 1', 'Group 2', 'Group 3', 'Group 4']
+    group_counts = [203050, 190941,173721, 353888]
     ax.bar(groups, group_counts)
     # plt.show()
     plt.savefig('./Plots/Clusters_Plot.png')
