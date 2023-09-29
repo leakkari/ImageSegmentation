@@ -24,7 +24,7 @@ double euclidian_distance(int dim, double *p1, double *p2){
  * On failure, print error message and exit
  * */
 void onFail(char *str){
-    printf(str);
+    printf("%s", str);
     exit(-1);
   }
  

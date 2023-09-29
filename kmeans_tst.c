@@ -26,7 +26,7 @@ uint8_t* read_in_image() {
 
 	uint8_t* grayscale_image = stbi_load("image2.jpeg", &width, &height, &bpp, 1);
 
-	stbi_image_free(grayscale_image);
+	//stbi_image_free(grayscale_image);
 
 	width_ = width;
 	height_ = height;
