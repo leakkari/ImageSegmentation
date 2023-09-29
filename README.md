@@ -10,7 +10,7 @@ git https://github.com/leakkari/ImageSegmentation.git
 
 2. Compile project
 ```console
-gcc kmeans_tst.c 
+gcc kmeans_tst.c -lm
 ```
 
 3. Run k-means on the image
